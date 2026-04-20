@@ -1,0 +1,125 @@
+[
+  {
+    "lambda": 0.1,
+    "accuracy": 54.52,
+    "sparsity": 0.22704436543515227,
+    "best_acc": 54.52,
+    "training_time": 363.63003945350647,
+    "layer_info": {
+      "fc1": {
+        "total_weights": 786432,
+        "pruned_weights": 1880,
+        "sparsity_pct": 0.23905436197916666,
+        "mean_gate": 0.6329434514045715,
+        "min_gate": 0.003689512610435486,
+        "max_gate": 0.9997449517250061
+      },
+      "fc2": {
+        "total_weights": 32768,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.9032025933265686,
+        "min_gate": 0.12431862205266953,
+        "max_gate": 0.9988221526145935
+      },
+      "fc3": {
+        "total_weights": 8192,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.9084429740905762,
+        "min_gate": 0.218820720911026,
+        "max_gate": 0.9980966448783875
+      },
+      "fc4": {
+        "total_weights": 640,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.8753858804702759,
+        "min_gate": 0.12869387865066528,
+        "max_gate": 0.9945545196533203
+      }
+    }
+  },
+  {
+    "lambda": 1.0,
+    "accuracy": 54.21,
+    "sparsity": 48.215407134023806,
+    "best_acc": 54.24,
+    "training_time": 372.1106376647949,
+    "layer_info": {
+      "fc1": {
+        "total_weights": 786432,
+        "pruned_weights": 399212,
+        "sparsity_pct": 50.762430826822914,
+        "mean_gate": 0.1386972814798355,
+        "min_gate": 0.000339914025971666,
+        "max_gate": 0.9991276860237122
+      },
+      "fc2": {
+        "total_weights": 32768,
+        "pruned_weights": 27,
+        "sparsity_pct": 0.0823974609375,
+        "mean_gate": 0.743862509727478,
+        "min_gate": 0.004102860577404499,
+        "max_gate": 0.9984252452850342
+      },
+      "fc3": {
+        "total_weights": 8192,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.8271577954292297,
+        "min_gate": 0.031369052827358246,
+        "max_gate": 0.9975639581680298
+      },
+      "fc4": {
+        "total_weights": 640,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.8641089200973511,
+        "min_gate": 0.07958997786045074,
+        "max_gate": 0.9952172040939331
+      }
+    }
+  },
+  {
+    "lambda": 5.0,
+    "accuracy": 53.64,
+    "sparsity": 82.0201393182872,
+    "best_acc": 53.72,
+    "training_time": 557.2018809318542,
+    "layer_info": {
+      "fc1": {
+        "total_weights": 786432,
+        "pruned_weights": 673135,
+        "sparsity_pct": 85.59354146321616,
+        "mean_gate": 0.02289099246263504,
+        "min_gate": 0.0001336666609859094,
+        "max_gate": 0.9986785054206848
+      },
+      "fc2": {
+        "total_weights": 32768,
+        "pruned_weights": 5739,
+        "sparsity_pct": 17.5140380859375,
+        "mean_gate": 0.3404684066772461,
+        "min_gate": 0.0004427497333381325,
+        "max_gate": 0.9974876642227173
+      },
+      "fc3": {
+        "total_weights": 8192,
+        "pruned_weights": 279,
+        "sparsity_pct": 3.40576171875,
+        "mean_gate": 0.5087237358093262,
+        "min_gate": 0.0012075169943273067,
+        "max_gate": 0.9969081282615662
+      },
+      "fc4": {
+        "total_weights": 640,
+        "pruned_weights": 0,
+        "sparsity_pct": 0.0,
+        "mean_gate": 0.8337475657463074,
+        "min_gate": 0.07017981261014938,
+        "max_gate": 0.9941002726554871
+      }
+    }
+  }
+]
